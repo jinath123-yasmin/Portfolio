@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation container-fluid">
+        <div class="link-developer monospace"><bold><h3 style="font-size:190%">Blogs</h1></bold></div>
+        <ul class="non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link primary-link on" style="float:right" href="/lib/blog.html">Blogs</a>
+            </li>
+            <li class=" list-item-inline">
+                <a class="link primary-link on" style="float:right" href="/lib/project.html">Projects</a>
+            </li>
+            <li class="list-item-inline" >
+                <a class="link primary-link on" style="float:right" href="/index.html"> Home </a>
+            </li>
+        </ul>
+        </nav>
+
+        <header class="hero-header">
+            <img class="hero-image" src="/aimage/blog.png"  />
+            <h2 class="hero-heading monospace">5 Famous Programming Quotes, Explained</h2>
+            <h3 class="hero-heading he monospace om">Date:30 Nov 2020</h3>
+       </header>
+      
+    <section class="section">
+        
+     <div class="container container-center">
+        <h2  class="hero-heading monospace" > 1. On Indirection</h2>
+        <h3 class="hero-heading ow monospace">“All problems in computer science can be solved by another level of indirection.” — David Wheeler</h3>
+      <p>Here’s an often-repeated compsci quote that few developers want to explain. But it’s one my favorite programming truths, because it strikes at the heart of what coding is all about.</p>
+
+      <p>  The easiest way to start thinking about indirection is to imagine layers. For example, say you have a small project that needs to fit component A into component B.</p>
+       <p><img  class="image-footer"  style="float:right" src="https://miro.medium.com/max/800/1*5sYfOE-ZLm61Fbp7umVUBQ.png" width="500" height="300"></p>
+        <p> Components are standardized, so you can’t break them open and change the way they work. 
+            You could build a whole new component (PlugTwoProngVariant) but that’s a lot of work and unnecessary duplication.
+             A better approach is to add a layer in between the two pieces — an adapter that fits into both components and translates between them.</p>
+             <P>Now, if indirection was just about adding a new layer to fit incompatible pieces together, it would be nice but narrowly useful. But the idea of solving problems by building around them is a concept that stretches from the bottom to the top of computing. 
+                 You see it when you’re trying to fit a new data model to an old user interface. You see it when you’re trying to fit a legacy application to a new web service backend. You see it when you need to strap on higher-level features like logging and caching, or coordinate higher-level services like messaging and transactions. And at the top of the pyramid, you’ll get to rarefied topics like machine learning (when you can’t code the behavior you need, write another layer of code that will figure it out for you).</P>
+    </div>
+ </section>
+
+
+ <section class="section">
+        
+    <div class="container container-center">
+       <h2  class="hero-heading monospace" > 2. On Simplicity</h2>
+       <h3 class="hero-heading ow monospace">“Simplicity is prerequisite for reliability.” — Edsger Dijkstra</h3>
+     <p>There’s no shortage of wise programmers warning us not to overcomplicate our code. But few put the cost of complexity any clearer than Dutch computer science pioneer Edsger Dijkstra.</p>
+
+     <p>  The easiest way to start thinking about indirection is to imagine layers. For example, say you have a small project that needs to fit component A into component B.</p>
+       <p> Here’s the insight: You don’t choose simplicity as a gift to the future. You don’t do it because you’re anticipating the chance to reuse your code, or because you want it to look cleaner at a code review, or because you want to make it easier to modify. (Although all these benefits are valuable!) You do it because simplicity is a prerequisite. Without simplicity, you can never have reliable code that you can trust to run a business or handle your data.</p>
+            <P>To accept Dijkstra’s point, we need to redefine what “good code” means. It’s not the shortest code. It’s not necessarily the fastest code. It’s definitely not the cleverest code. It’s code that can be trusted.</P>
+   </div>
+</section>
+
+
+      
+<section class="section">
+        
+    <div class="container container-center">
+       <h2  class="hero-heading monospace" >3. On Readability and Rewrites</h2>
+       <h3 class="hero-heading ow monospace">“It’s harder to read code than to write it.” — Joel Spolsky</h3>
+     <p>At first glance, this quote by software legend and StackOverflow co-creator Joel Spolsky seems true but deceptively shallow. Yes, code can be dense, terse, and tediously long. 
+         And it’s not just other people’s code. If you look at your own work from a year ago, you’ll probably need some time to sort through the logic you once knew intimately.</p>
+
+         
+     <p>However, code isn’t the only place where repetition wreaks havoc. This version of the famous “don’t repeat yourself” (DRY) rule expands the no-duplication principle to cover the other places where inconsistencies can hide. We’re no longer talking about code duplication. We’re also talking about repetition in a system — 
+         and a system has many different ways of encoding knowledge. They include:</p>
+       <p> Components are standardized, so you can’t break them open and change the way they work. 
+           You could build a whole new component (PlugTwoProngVariant) but that’s a lot of work and unnecessary duplication.
+            A better approach is to add a layer in between the two pieces — an adapter that fits into both components and translates between them.</p>
+   </div>
+</section>
+
+
+<section class="section">
+        
+    <div class="container container-center">
+       <h2  class="hero-heading monospace" >4. On Repetition</h2>
+       <h3 class="hero-heading ow monospace">“Don’t repeat yourself. Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.” — Andy Hunt and Dave Thomas</h3>
+     <p>Every self-respecting programmer knows that repetition is the heart of much evil. If you’re writing the same thing in different places, you’re making extra work writing, testing, and debugging. Even worse, you’re introducing the possibility for inconsistencies — for example, if one part of the code is updated but other, similar routines aren’t brought into agreement. An inconsistent program is a program you can’t trust, 
+         and a program you can’t trust is no longer a viable solution.</p>
+         <p><img  class="image-footer"  style="float:right" src="https://miro.medium.com/max/875/1*ISSlzCUR59l2JFYjqE-3zQ.png" width="500" height="300"></p>
+     <p>However, code isn’t the only place where repetition wreaks havoc. This version of the famous “don’t repeat yourself” (DRY) rule expands the no-duplication principle to cover the other places where inconsistencies can hide. We’re no longer talking about code duplication. We’re also talking about repetition 
+         in a system — and a system has many different ways of encoding knowledge. They include:.</p>
+         Code statements
+<li>Code comments</li>
+<li>Developer or client documentation</li>
+<li>Data schemas (for example, database tables)</li>
+<li>Other specifications, like test plans, workflow documents, and build rules</li>
+       <p> Components are standardized, so you can’t break them open and change the way they work. 
+           You could build a whole new component (PlugTwoProngVariant) but that’s a lot of work and unnecessary duplication.
+            A better approach is to add a layer in between the two pieces — an adapter that fits into both components and translates between them.</p>
+   </div>
+</section>
+
+
+<section class="section">
+        
+    <div class="container container-center">
+       <h2  class="hero-heading monospace" >5. On Hard Problems</h2>
+       <h3 class="hero-heading ow monospace">“There are only two hard things in computer science: cache invalidation and naming things.” — Phil Karlton</h3>
+     <p>At first glance, this quotation seems like an amusing but ordinary programming joke. The contrast between one something that sounds difficult (cache invalidation) and something that sounds painless (naming things) is instantly relatable. Every programmer has invested hours of work fixing a ridiculously trivial issue, like a pair of parameters passed in the wrong order or an inconsistently capitalized variable (thanks JavaScript). As long as humans need to partner with machines to get things done,
+          programming is going to be a mashup of high-level system planning and trivial typos.</p>
+          <p>But if you take a second look at Phil Karlton’s quote, there’s more to unpack. Naming things isn’t hard just because a programmer’s life is regularly ruined by tiny headaches. It’s also because the issue of naming is actually the edge of every programmer’s most important job:
+               software design. In other words, how do you write code that’s clear, clean, and consistent?</p>
+               <p>There are plenty of ways to get naming wrong. We’ve all seen variables named after data types (myString, obj), abbreviations (pc for product catalog), some trivial implementation detail (swappable_name, formUserInput), or even nothing at all (ret_value, tempArray). It’s easy to fall into the trap of naming a variable based on what you’re doing with it at that moment rather than what it contains. And boolean values are particularly tricky — does progress set when progress starts,
+                    indicate that you need to display progress information in the UI, or flag something completely different?</p>
+         <img  class="image-footer"  style="float:right" src="https://miro.medium.com/max/813/1*O61QmEk3LLQgo95b9ZI3zg.jpeg" width="500" height="300" />
+     <p>However, code isn’t the only place where repetition wreaks havoc. This version of the famous “don’t repeat yourself” (DRY) rule expands the no-duplication principle to cover the other places where inconsistencies can hide. We’re no longer talking about code duplication. We’re also talking about repetition 
+         in a system — and a system has many different ways of encoding knowledge. They include:.</p>
+         Code statements
+<li>Code comments</li>
+<li>Developer or client documentation</li>
+<li>Data schemas (for example, database tables)</li>
+<li>Other specifications, like test plans, workflow documents, and build rules</li>
+       <p> Components are standardized, so you can’t break them open and change the way they work. 
+           You could build a whole new component (PlugTwoProngVariant) but that’s a lot of work and unnecessary duplication.
+            A better approach is to add a layer in between the two pieces — 
+            an adapter that fits into both components and translates between them.</p>
+
+   </div>
+</section>
+
+<footer class="footer ">
+   
+    <ul class="non-bullet item">
+        <li class="list-item-inline"><a href="https://mobile.twitter.com/JinathLaskar"><img class="image-footer"  style="float:right" src="https://cnet3.cbsistatic.com/img/n5ZAj2xmfJ-sAhlSUUsogto3K_A=/970x0/2014/06/12/95e98438-6657-4d87-9843-02ef7d70c8eb/twitter-logo.jpg" width="50" height="40">
+        </a>    </li>
+            
+            <li class="list-item-inline"><a href=" https://github.com/jinath123-yasmin"></a><a href=" https://github.com/jinath123-yasmin">
+        <img  class="image-footer"  style="float:right" src="https://tse1.mm.bing.net/th?id=OIP.sV7tva-728oySeOUL0-vOwHaHa&pid=Api&P=0&w=300&h=300" width="50" height="40"></a></li>
+        <li class="list-item-inline"><a href=" https://www.linkedin.com/in/jinath-yasmin-laskar-a48162184/"><img  class="image-footer"  style="float:right" src="https://tse1.mm.bing.net/th?id=OIP.UiK2i1o9j-RxcX0A53gjfAHaHa&pid=Api&rs=1&c=1&qlt=95&w=108&h=108" width="50" height="40"></a></li>
+   </ul>  </footer>
+
+
+</body>
+</html>
