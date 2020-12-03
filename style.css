@@ -32,7 +32,8 @@ hr{
 
 .link{
     text-decoration: none;
-    padding: 0.5rem 0.5rem 0.5rem 0rem ;
+   /**
+    padding: 0.5rem 0.5rem 1rem 0rem ;**/
     color: white;
     margin: 0.5em;
     box-sizing: border-box;
@@ -42,7 +43,9 @@ hr{
 background-color: var(--primary-color);
 border-radius: 0.3rem;
 color: white;
-padding:0.5rem; 
+padding:0.5rem;
+
+; 
 
 }
 
@@ -89,6 +92,7 @@ padding:0.5rem;
 
 .navigation .link-developer{
     font-weight: 800;
+    
 }
 
 .navigation .link{
@@ -96,12 +100,13 @@ padding:0.5rem;
 }
 
 .hero-header{
-    padding: 1rem;
+    padding: 2rem;
+    padding-top:5rem;
 }
 
 .hero-header .hero-image{
     max-width: 350px ;
-    display:block;
+    display: block;
     margin: auto;
 }
 .hero-header .hero-heading{
@@ -209,5 +214,11 @@ padding:0.5rem;
 }
 
 .on{
-    font-size: 25px;
+
+    font-size: 20px;
+}
+
+.ol{
+
+    padding: 0.1rem;
 }
