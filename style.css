@@ -202,6 +202,8 @@ padding:0.5rem;
 
   .image-footer{
       padding:2rem 0.5rem;
+      border-radius: 5%;
+      box-shadow: 10%;
   }
 
 .margin-pro{
@@ -221,4 +223,10 @@ padding:0.5rem;
 .ol{
 
     padding: 0.1rem;
+}
+
+.ow{
+    width:90%;
+    height: 60%;
+    padding: 1rem 1.5rem;
 }
