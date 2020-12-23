@@ -115,6 +115,7 @@ padding:0.5rem;
 
 .hero-header  .heading-new{
     color: var(--primary-color);
+    width:40%;
 }
 
 .section{
@@ -202,8 +203,9 @@ padding:0.5rem;
 
   .image-footer{
       padding:2rem 0.5rem;
-      border-radius: 5%;
+      border-radius: 45%;
       box-shadow: 10%;
+     
   }
 
 .margin-pro{
@@ -229,4 +231,12 @@ padding:0.5rem;
     width:90%;
     height: 60%;
     padding: 1rem 1.5rem;
+}
+
+.oj{
+    
+    margin-block: 1rem;
+    display: block;
+    font-size: 110%;
+    font-weight: 800;
 }
